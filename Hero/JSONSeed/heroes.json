@@ -1,0 +1,35 @@
+﻿{
+  "name": "Hero Collection",
+  "heroes": [
+    {
+      "name": "Sean",
+      "gender": "male",
+      "profileImage": "Sean_image"
+    },
+    {
+      "name": "Yaw",
+      "gender": "male",
+      "profileImage": "Yaw_image"
+    },
+    {
+      "name": "Lucy",
+      "gender": "female",
+      "profileImage": "Lucy_image"
+    },
+    {
+      "name": "Eric",
+      "gender": "male",
+      "profileImage": "Eric_image"
+    },
+    {
+      "name": "Rory",
+      "gender": "male",
+      "profileImage": "Rory_image"
+    },
+    {
+      "name": "Hayley",
+      "gender": "male",
+      "profileImage": "Hayley_image"
+    }
+  ]
+}

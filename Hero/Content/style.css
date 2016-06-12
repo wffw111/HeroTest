@@ -1,0 +1,33 @@
+html {
+  height: 101%; }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+footer {
+  margin-top: 100px; }
+
+.hero-area:after {
+  content: '';
+  clear: both; }
+
+/*control how hero panel looks like*/
+.hero-panel {
+  float: left;
+  padding: 15px 0;
+  height: 210px;
+  text-align: center; }
+  .hero-panel img {
+    display: block; }
+  .hero-panel .hero-name {
+    width: 100%; }
+  @media (min-width: 300px) {
+    .hero-panel {
+      padding-right: 10px; } }
+  @media (min-width: 400px) {
+    .hero-panel {
+      padding-right: 15px; } }
+  @media (min-width: 600px) {
+    .hero-panel {
+      padding-right: 20px; } }

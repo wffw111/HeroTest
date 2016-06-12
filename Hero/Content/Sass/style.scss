@@ -1,0 +1,56 @@
+﻿$small:300px;
+$mid: 400px;
+$large: 600px;
+
+html {
+    height: 101%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+
+.hero-area {
+}
+
+.hero-area:after {
+    content: '';
+    clear: both;
+}
+
+
+/*control how hero panel looks like*/
+.hero-panel {
+    float: left;
+    padding: 15px 0;
+    height: 210px;
+    text-align: center;
+
+    img {
+        display: block;
+    }
+
+    .hero-name {
+        width: 100%;
+    }
+
+
+    @media (min-width: $small) {
+        padding-right: 10px;
+    }
+
+    @media (min-width: $mid) {
+        padding-right: 15px;
+    }
+
+    @media (min-width: $large) {
+        padding-right: 20px;
+    }
+}

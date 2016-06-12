@@ -1,0 +1,23 @@
+﻿<h4>
+    Find The Hero
+</h4>
+
+<div class="row">
+
+    <div class="form-group col-xs-12 col-md-6 col-lg-4">
+        <input type="text" class="form-control"
+               ng-model="searchModel.key"
+               placeholder="Enter the Hero Name" />
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-xs-12 hero-area">
+        <div hero-profile="hero" ng-repeat="hero in model.heroCollection.collection | filter:searchModel.key"
+             class="hero-panel"></div>
+    </div>
+</div>
+
+
+
